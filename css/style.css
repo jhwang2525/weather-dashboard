@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: grey;
+}
+.navbar {
+    height: 150px!important;
+}
+.card {
+    background-color: #516168!important;
+}
