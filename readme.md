@@ -13,4 +13,6 @@
 * WHEN I click on a city in the search history
 * THEN I am again presented with current and future conditions for that city
 
-![alt text]
+![alt text](https://github.com/jhwang2525/weather-dashboard/blob/main/assets/image/weather%20dashboard.PNG?raw=true)
+
+
