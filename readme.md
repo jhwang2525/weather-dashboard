@@ -1,18 +1,29 @@
 # Weather Dashboard
 
+Search any city for current conditions and a 5-day forecast. Recent searches are saved in the browser so you can jump back to them in one click.
 
-* GIVEN a weather dashboard with form inputs
-* WHEN I search for a city
-* THEN I am presented with current and future conditions for that city and that city is added to the search history
-* WHEN I view current weather conditions for that city
-* THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-* WHEN I view the UV index
-* THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-* WHEN I view future weather conditions for that city
-* THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-* WHEN I click on a city in the search history
-* THEN I am again presented with current and future conditions for that city
+**Live demo:** https://jhwang2525.github.io/weather-dashboard/
 
-![alt text](https://github.com/jhwang2525/weather-dashboard/blob/main/assets/image/weather%20dashboard.PNG?raw=true)
+![Weather Dashboard screenshot](assets/image/screenshot.png)
 
-Deployed Link: https://jhwang2525.github.io/weather-dashboard/
+## Features
+
+- City search with automatic geocoding
+- Current temperature, feels-like, humidity, wind and UV index
+- UV index color-coded as low, moderate, high or severe
+- 5-day forecast with highs, lows, wind and humidity
+- Search history saved in `localStorage`, with a clear button
+- Loading and error states, responsive layout
+
+## Built with
+
+- HTML, CSS and vanilla JavaScript (no frameworks)
+- [Open-Meteo](https://open-meteo.com/) geocoding and forecast APIs (free, no API key required)
+
+## Run locally
+
+Open `index.html` in a browser, or serve the folder:
+
+```bash
+npx serve .
+```
